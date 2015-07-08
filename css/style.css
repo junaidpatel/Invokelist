@@ -311,8 +311,7 @@ hr {
     background-position:center;
     background-size:cover;
      display: block;
-     filter: blur(0px);
-  -webkit-filter: blur(0px);
+  opacity: .7
 }
 
 #intro.intro {
@@ -321,8 +320,6 @@ hr {
 
 .intro .slogan {
 	text-align: center;
-     filter: blur(0px);
-    -webkit-filter:blur(0px);
 
 }
 
