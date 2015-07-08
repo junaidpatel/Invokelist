@@ -1,0 +1,111 @@
+@import url('http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic|Montserrat:700|Merriweather:400italic');
+
+/*invokelist stylesheet*/
+body {
+    width: 100%;
+    height: 100%;
+    font-family: 'Lato',sans-serif;
+	font-weight: 300;
+    color: #666;
+    background-color: #fff;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 30px;
+    text-transform: uppercase;
+    font-family: Montserrat,sans-serif;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+p {
+    margin: 0 0 20px;
+    font-size: 16px;
+    line-height: 1.6em;
+}
+
+p.lead {
+	font-weight: 600;
+}
+
+a {
+    color: #28c3ab;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+}
+
+a:hover,
+a:focus {
+    text-decoration: none;
+    color: #176e61;
+}
+
+.light {
+    font-weight: 400;
+}
+/* Nav Bar */
+
+.navbar-brand,
+.navbar-nav li a {
+    line-height: 52px;
+    height: 52px;
+    padding-top: 0;
+    padding-left: 50px;
+    padding-right: 50px;
+    color:azure;
+}
+
+/*body-background*/
+
+.background{
+    background-image: url("../img/Top_view.jpg");
+    width:  1372px;
+    height:900px;
+    background-position:center;
+    background-size:cover;
+     display: block;
+  filter: blur(0px);
+  -webkit-filter: blur(0px);
+}
+
+/*button*/
+
+.button{
+    background-color: transparent;
+  display: inline-block;
+  width: 200px;
+  padding: 8px;
+  color: #fff;
+  border: 2px solid #fff;
+  text-align: center;
+  outline: none;
+  text-decoration: none;
+  -webkit-transition: border-color 0.3s ease-out, color 0.3s ease-out;
+  transition: border-color 0.3s ease-out,
+              color 0.3s ease-out;
+}
+.button:hover,
+.button:active {
+  color: #66d8ed;
+  border-color: #66d8ed;
+  -webkit-transition: border-color 0.4s ease-in, color 0.4s ease-in;
+  transition: border-color 0.4s ease-in,
+              color 0.4s ease-in;
+}
+
+/*Dropdown opacity*/
+.dropd{
+    background:transparent;
+    color:none;
+}
