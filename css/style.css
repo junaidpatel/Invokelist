@@ -305,13 +305,12 @@ hr {
 	width:100%;
 	position:relative;
 	
-	background: url(../img/mac2.jpeg) no-repeat top center;
+	background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url(../img/mac2.jpeg) no-repeat top center;
      width:  1410px;
     height:900px;
     background-position:center;
     background-size:cover;
      display: block;
-  opacity: .7
 }
 
 #intro.intro {
